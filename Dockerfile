@@ -22,4 +22,4 @@
 #
 
 FROM buildbot/buildbot-master:latest
-RUN pip install requests
+RUN pip install requests docker-py
