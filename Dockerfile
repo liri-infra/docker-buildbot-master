@@ -21,5 +21,5 @@
 # $END_LICENSE$
 #
 
-FROM buildbot/buildbot-master:latest
+FROM buildbot/buildbot-master:v0.9.13
 RUN pip install requests docker-py
