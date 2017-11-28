@@ -22,4 +22,4 @@
 #
 
 FROM buildbot/buildbot-master:v0.9.13
-RUN pip install requests docker-py
+RUN pip install txrequests requests docker-py
