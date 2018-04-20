@@ -21,5 +21,5 @@
 # $END_LICENSE$
 #
 
-FROM buildbot/buildbot-master:v0.9.15
+FROM buildbot/buildbot-master:v1.1.1
 RUN pip install txrequests requests docker-py
